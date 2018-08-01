@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5297" started-at="2018-08-01T07:10:33Z" finished-at="2018-08-01T07:10:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5297" started-at="2018-08-01T07:10:33Z" finished-at="2018-08-01T07:10:39Z">
+      <class name="TEST.TestFromRestfulPage">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:TEST.TestFromRestfulPage@2ff4f00f]" name="LaunchBrowser" is-config="true" duration-ms="2570" started-at="2018-08-01T12:40:33Z" finished-at="2018-08-01T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Step1_RestfulPAgeTest()[pri:0, instance:TEST.TestFromRestfulPage@2ff4f00f]" name="Step1_RestfulPAgeTest" duration-ms="595" started-at="2018-08-01T12:40:36Z" finished-at="2018-08-01T12:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1_RestfulPAgeTest -->
+        <test-method status="PASS" signature="Step2_FileHandleTest()[pri:0, instance:TEST.TestFromRestfulPage@2ff4f00f]" name="Step2_FileHandleTest" duration-ms="2121" started-at="2018-08-01T12:40:36Z" depends-on-methods="TEST.TestFromRestfulPage.Step1_RestfulPAgeTest" finished-at="2018-08-01T12:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step2_FileHandleTest -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:TEST.TestFromRestfulPage@2ff4f00f]" name="closeWindow" is-config="true" duration-ms="1" started-at="2018-08-01T12:40:39Z" finished-at="2018-08-01T12:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- TEST.TestFromRestfulPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
